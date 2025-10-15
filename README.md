@@ -1,46 +1,96 @@
-# Getting Started with Create React App
+# MedBot - Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
 
-In the project directory, you can run:
+Bem-vindo ao repositório da landing page do MedBot! Este é um projeto de portfólio que demonstra a criação de uma página de vendas moderna, responsiva e animada para um produto fictício: um chatbot de IA para estudantes de residência médica.
 
-### `npm start`
+**[➡️ Veja o projeto ao vivo!](https://rafhacorsini.github.io/medbot-landing)**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🚀 Sobre o Projeto
 
-### `npm test`
+O MedBot é um assistente de estudos baseado em IA, integrado ao WhatsApp, projetado para ajudar médicos residentes a se prepararem para suas provas. Esta landing page foi construída para apresentar o produto, destacar seus benefícios e converter visitantes em usuários.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Principais Seções
 
-### `npm run build`
+*   **Hero:** Uma introdução impactante com um título animado e um mockup interativo do app.
+*   **Como Funciona:** Uma seção clara com 3 passos simples para o usuário entender o serviço.
+*   **Apresentação da IA:** Uma seção que quebra objeções e mostra como a IA pode ser uma aliada nos estudos, com um GIF dinâmico.
+*   **Jornada Diária (Features):** Uma timeline visual que demonstra como o MedBot se integra à rotina do estudante.
+*   **Depoimentos:** Prova social para aumentar a confiança.
+*   **Preços:** Planos claros com um seletor de cobrança mensal/anual.
+*   **FAQ:** Uma seção de acordeão para responder às dúvidas mais comuns.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✨ Tecnologias Utilizadas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Este projeto foi construído com as seguintes tecnologias:
 
-### `npm run eject`
+- **[React](https://reactjs.org/)**: Biblioteca principal para a construção da interface.
+- **[TypeScript](https://www.typescriptlang.org/)**: Para adicionar tipagem estática e segurança ao código.
+- **[Tailwind CSS](https://tailwindcss.com/)**: Framework CSS para estilização rápida e responsiva.
+- **[Framer Motion](https://www.framer.com/motion/)**: Para criar animações complexas e fluidas.
+- **[React Router](https://reactrouter.com/)**: Para gerenciar as rotas da aplicação (incluindo as páginas de Termos e Privacidade).
+- **[Lucide React](https://lucide.dev/)**: Para ícones SVG leves e consistentes.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+---
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Como Executar o Projeto Localmente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Siga os passos abaixo para rodar o projeto na sua máquina.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/rafhacorsini/medbot-landing.git
+    ```
 
-## Learn More
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd medbot-landing
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm start
+    ```
+
+    Abra [http://localhost:3000](http://localhost:3000) no seu navegador para ver o resultado.
+
+---
+
+## 🌐 Deploy no GitHub Pages
+
+Este projeto está configurado para ser publicado facilmente no GitHub Pages.
+
+1.  **Certifique-se de que a propriedade `homepage` no arquivo `package.json` está correta:**
+    ```json
+    "homepage": "https://rafhacorsini.github.io/medbot-landing",
+    ```
+
+2.  **Execute o comando de deploy:**
+    ```bash
+    npm run deploy
+    ```
+    Este comando irá criar uma build de produção e publicá-la na branch `gh-pages` do seu repositório.
+
+---
+
+## 👨‍💻 Autor
+
+Feito com ❤️ por **Rafhael Corsini**.
+
+- **GitHub:** @rafhacorsini
+- **LinkedIn:** [Seu LinkedIn aqui] <!-- Adicione o link do seu LinkedIn -->
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença ISC. Veja o arquivo `LICENSE` para mais detalhes.
