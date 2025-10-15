@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/medbot-landing/static/css/main.a1ae8261.css",
+    "main.js": "/medbot-landing/static/js/main.a6e17c9f.js",
+    "static/js/453.4c59d80f.chunk.js": "/medbot-landing/static/js/453.4c59d80f.chunk.js",
+    "static/media/medica.gif": "/medbot-landing/static/media/medica.fa0154911512dbf4dae1.gif",
+    "index.html": "/medbot-landing/index.html",
+    "main.a1ae8261.css.map": "/medbot-landing/static/css/main.a1ae8261.css.map",
+    "main.a6e17c9f.js.map": "/medbot-landing/static/js/main.a6e17c9f.js.map",
+    "453.4c59d80f.chunk.js.map": "/medbot-landing/static/js/453.4c59d80f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1ae8261.css",
+    "static/js/main.a6e17c9f.js"
+  ]
+}
