@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
@@ -8,7 +8,7 @@ import PrivacyPage from './pages/PrivacyPage';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/medbot-landing">
       <div className="bg-background-dark text-content-dark font-sans overflow-x-hidden">
         <Header />
         <main>
