@@ -87,7 +87,7 @@ Este projeto está configurado para ser publicado facilmente no GitHub Pages.
 Feito com ❤️ por **Rafhael Corsini**.
 
 - **GitHub:** @rafhacorsini
-- **LinkedIn:** [Seu LinkedIn aqui] <!-- Adicione o link do seu LinkedIn -->
+- **LinkedIn:** (www.linkedin.com/in/rafhael-corsini-084392323) <!-- Adicione o link do seu LinkedIn -->
 
 ---
 
